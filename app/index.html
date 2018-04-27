@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html ng-app="quiz-game">
+
+<head>
+    <title>Quiz Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+    <script type="text/javascript" src="js/quiz.js"></script>
+</head>
+
+<body ng-controller="askQuestionController">
+    <button ng-click="startQuiz()" ng-hide="step1 || step2 || loadingQuestions">Start Quiz</button>
+    <p ng-show="loadingQuestions">Loading Questions...</p>
+    <div ng-show="step1">
+        <ol>
+            <li ng-repeat="list in questions">
+                <h4>{{ list.question }}</h4>
+                <p ng-repeat="option in list.options">{{ option }}</p>
+                <label>Select Answer</label>
+                <select ng-model="list.response">
+                    <option value="">Select</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                </select>
+            </li>
+        </ol>
+        <button ng-click="processAnswers()">Submit Answers</button>
+    </div>
+    <div ng-show="step2">
+        <h1>You have scored {{ score }} / {{totalAnswer}}</h1>
+        <button ng-click="playAgain()">Play Again</button>
+    </div>
+</body>
+
+</html>

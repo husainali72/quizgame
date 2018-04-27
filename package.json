@@ -1,0 +1,22 @@
+{
+  "name": "ghia",
+  "version": "1.0.0",
+  "description": "Quiz Game",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Quiz",
+    "Game"
+  ],
+  "author": "Husain Bandookwala",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "method-override": "^2.3.10",
+    "mongodb": "^3.0.7"
+  }
+}
