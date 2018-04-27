@@ -26,11 +26,10 @@ Quiz Game prepared by Husain Bandookwala
 <p>On following above steps you will get the source code and you will be at the place where you are going to perform installation and other operations</p><br>
 
 <h2>Command to execute on command prompt</h2>
-<ol>
-  <li> $ npm install</li>
-  <li> $ npm start</li>
-</ol>
+ $ npm install
+ $ npm start
+
 <br/>
 <p>Here if you have message on your command prompt i.e. Connected to Server it means your server will be started.</p>
 
-<p>Goto your browser and type http://localhost:5000 and press enter. You can enjoy quiz games now.</p>
+<p>Goto your browser and type <a href="http://localhost:5000">http://localhost:5000</a> and press enter. You can enjoy quiz games now.</p>
