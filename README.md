@@ -2,27 +2,35 @@
 Quiz Game prepared by Husain Bandookwala
 
 <h2>System Requirement:</h2>
-1) CPU Quad Core
-2) 4GB RAM
-3) Linux, Windows or Mac
+<ol>
+  <li> CPU Quad Core</li>
+  <li> 4GB RAM</li>
+  <li> Linux, Windows or Mac</li>
+</ol>
 
 <h2>Software Requirement:</h2>
-1) NPM 8.9.4
-2) Wherever you keep this code, you should have proper access to that folder
+<ol>
+  <li> NPM 8.9.4</li>
+  <li> Wherever you keep this code, you should have proper read and write access to that folder</li>
+</ol>
 
 <h2>Steps of installation: </h2>
-1) Copy https://github.com/husainali72/quizgame this link and paste on your browser
-2) You will find Clone or Download (Green Color) Button on this page
-3) Click on above button and Download Zip File
-4) Extract download file to the place where you want to work on
-5) Open Command Prompt on above folder and write cd quizgame-master command
-
-On following above steps you will get the source code and you will be at the place where you are going to perform installation and other operations
+<ol>
+<li> Copy https://github.com/husainali72/quizgame this link and paste on your browser</li>
+<li> You will find Clone or Download (Green Color) Button on this page</li>
+<li> Click on above button and Download Zip File</li>
+<li> Extract download file to the place where you want to work on</li>
+<li> Open Command Prompt on above folder and write cd quizgame-master command</li>
+</ol>
+<br>
+<p>On following above steps you will get the source code and you will be at the place where you are going to perform installation and other operations</p><br>
 
 <h2>Command to execute on command prompt</h2>
-1) npm install
-2) npm start
+<ol>
+  <li> $ npm install</li>
+  <li> $ npm start</li>
+</ol>
+<br/>
+<p>Here if you have message on your command prompt i.e. Connected to Server it means your server will be started.</p>
 
-Here if you have message on your command prompt i.e. Connected to Server it means your server will be started.
-
-Goto your browser and type http://localhost:5000 and press enter. You can enjoy quiz games now.
+<p>Goto your browser and type http://localhost:5000 and press enter. You can enjoy quiz games now.</p>
